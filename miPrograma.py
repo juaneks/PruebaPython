@@ -2,5 +2,9 @@
 ok = 1
 if ok:
 	print("Hola mundo")
-
-4+5
+iva = 12/100
+valor = 100
+valor*iva
+valor+_
+if _>100:
+	print(valor)

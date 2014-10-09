@@ -11,3 +11,6 @@ print "el resultado de la suma es :",suma
 if suma > 100:
 	print("la suma es mayor a 100, se cobrara IVA")
 	
+arreglo = [3,4,6,78,10]
+print "este es un arreglo :",arreglo
+print "arreglo rebanado :",arreglo[:2]	

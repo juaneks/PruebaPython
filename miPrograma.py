@@ -1,10 +1,13 @@
+#!/usr/bin/python
 # programa de ejemplo en python
-ok = 1
-if ok:
-	print("Hola mundo")
+
 iva = 12/100
-valor = 100
-valor*iva
-valor+_
-if _>100:
-	print(valor)
+print("programa que suma 2 numeros")
+
+a= input("ingrese el numero 1 :")
+b = input("ingrese el numero 2:")
+suma = a+b
+print "el resultado de la suma es :",suma
+if suma > 100:
+	print("la suma es mayor a 100, se cobrara IVA")
+	

@@ -35,6 +35,28 @@ diccionario['precio'] = miList[-1]
 print "el precio ya modificado es :", diccionario['precio']-1
 
 
+#  bucles
+
+anio = 2000
+listaAnio = [1999,anio]
+while anio < 2015:
+	print "este es el año : ", anio
+	anio += 1
+	listaAnio.append(anio)
+
+print listaAnio
+for numero in listaAnio:
+	print "entro en el anio :", numero
+
+print "usando for range..."
+for an in range(2000,2005):
+	print "informe del año :", str(an)
+
+
+
+
+
+
 
 
 

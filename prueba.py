@@ -1,6 +1,8 @@
 #!/usr/bin/python
 #-*- coding: utf8 -*-
 # usando ninja IDE
+import string
+import miModulos.Calculos
 
 def sacaIVA(valor,iva):
     total =0.0
@@ -52,9 +54,17 @@ print "usando for range..."
 for an in range(2000,2005):
 	print "informe del año :", str(an)
 
+print "multiplicando valores usando modulos"
+x = raw_input("ingrese un valor")
+y = raw_input("ingrese otro valor")
+z = raw_input("ingrese el ultimo valor")
+multi = raw_input("ingrese el multiplicador :")
 
+tuplaMul = (x,y,z)
 
-
+listaMult = miModulos.Calculos.multiplicarTupla(tuplaMul, multi)
+print listaMult
+print string.punctuation
 
 
 

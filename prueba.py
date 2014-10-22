@@ -2,7 +2,7 @@
 #-*- coding: utf8 -*-
 # usando ninja IDE
 import string
-import miModulos.Calculos
+import miModulos.Calculos as cal
 
 def sacaIVA(valor,iva):
     total =0.0
@@ -62,7 +62,7 @@ multi = raw_input("ingrese el multiplicador :")
 
 tuplaMul = (x,y,z)
 
-listaMult = miModulos.Calculos.multiplicarTupla(tuplaMul, multi)
+listaMult = cal.multiplicarTupla(tuplaMul, multi)
 print listaMult
 print string.punctuation
 
